@@ -1,2 +1,8 @@
 
 /* Your CSS Code here. */
+.holder{
+	display:grid;
+	width:200px;
+	grid-template-columns:100px 100px;
+	grid-row:repeat(2,100px);
+}
